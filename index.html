@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>portofolio web</title>
+</head>
+<body>
+    <div class="fond">
+     <div class="visuel">
+        <img src="9.jpg">
+         <h2>EMMANUEL KOUASSI</h2>
+             <p>Informaticien(miagiste)</br> &</br> Ifographiste</p>
+                <div class="social">
+                 <a href="https://www.facebook.com/tony.crosse.52"><img src="fb.png"></a>
+                 <a href="https://instagram.com/ange_emmanuel23?igshid=ZDdkNTZiNTM="><img src="insta.png"></a>
+                 <a href="https://www.linkedin.com/in/emmanuel-kouassi-1b0776255"><img src="link.png"></a>
+                 <a href="https://twitter.com/Emmanue97448879?t=iDV5NZrfqJtPhwEU1WqRKQ&s=09"><img src="twi.png"></a>
+               </div>
+               <a href="mailto:abc@emmanuel012021.com" class="btn">me contacter</a>
+      </div>
+           <div class="illustration">
+            <h1>MES CREAS REALISEES</h1>
+              <img id="img0" src="estou org.png" alt="oups" height="400" />
+           </div>
+           <div class="boutton">
+            <button id="bt1" onclick="precedente();">image précédente</button>
+            <button id="bt2" onclick="suivante();">image suivante</button>
+           </div>
+
+            <script>
+                var ensblimg = ['estou org.png','1.jpg','2.jpg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg'];
+                var imgactu = 0;
+
+                function suivante(){
+                    imgactu = imgactu+1;
+                    if(imgactu == ensblimg.length){
+                        imgactu = 0;
+                    }
+                    document.getElementById('img0').src = ensblimg[imgactu];
+                }
+                function precedente(){
+                imgactu = imgactu-1;
+                    if(imgactu < 0){
+                     imgactu = ensblimg.length-1;
+                }
+                document.getElementById('img0').src = ensblimg[imgactu];
+                }
+            </script>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.fond{
+    width: 100%;
+    height: 100vh;
+    background-image: url(wallpaper_iphone_abstract_01-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.visuel{
+    width: 90%;
+    max-width: 440px;
+    color: rgb(244, 246, 247);
+    padding: 50px 30px;
+    text-align: center;
+    border: solid #12d9fc;
+    background: rgba(245, 1, 204, 0.3);
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.visuel img{
+    width: 150px;
+    border-radius: 50%;
+}
+.visuel h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.visuel p{
+    font-size: 23px;
+    margin: 10px auto;
+}
+.visuel .social img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+.visuel .social img:hover{
+    background: #23dbfc;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: #fff;
+    color: blue;
+    border-radius: 30px;
+   padding: 10px 30px;
+   margin: 10px 20px;
+}
+
+.illustration{
+    margin-left:20%;
+}
+.illustration h1{
+    color: aliceblue;
+    background-color: rgb(241, 9, 29);
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid rgb(243, 242, 242);
+}
+.boutton #bt1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: red;
+    color: rgb(244, 244, 247);
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: rgb(252, 248, 248);
+   padding: 10px 30px;
+   margin: 10px 20px;
+}
+.boutton #bt2{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: red;
+    color: rgb(252, 252, 255);
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: rgb(252, 248, 248);
+   padding: 10px 30px;
+   margin: 10px 20px;
+}
+.boutton{
+    position: absolute;
+    bottom: 0;
+    margin-left: 900px;
+    margin-bottom: 60px;
+}
